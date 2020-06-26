@@ -1,0 +1,148 @@
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+h3{
+  font-family: "Montserrat";
+  font-size: 2rem;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding:3% 15%;
+}
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size: 2.5rem;
+font-weight: bold;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+.logo{
+  width: 15%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.card{
+  text-align: center;
+}
+.signup-button{
+  background-color: #ffffff;
+  border-color: #FF8000;
+  color: #FF8000;
+}
+.signup-button:hover{
+  background-color: #FF8000;
+  color:#ffffff;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+.paid-button{
+  background-color: #FF8000;
+  color: #ffffff;
+}
+
+.paid-button:hover{
+  background-color: #FF9950;
+  color: #ffffff;
+}
+
+
+.image{
+  width: 80%;
+  height: 100%;
+}
+
+.fa-bullseye:hover, .fa-check-circle:hover, .fa-bolt:hover{
+  color: yellow !important;
+}
+.cta-heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+#title{
+  background-color: #FF8000;
+  text-align: center;
+}
+#features{
+  padding: 7% 0;
+  position: relative;
+  z-index: 1;
+}
+#testimonials{
+  background-color: #FF8000;
+  color:#ffffff;
+  text-align: center;
+  height: auto;
+}
+
+#press{
+  background-color: #FF8000;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+
+#cta{
+  background-color:  #FF8000;
+  text-align: center;
+  color: #ffffff;
+  padding: 7% 15%;
+}
+#footer{
+  border-radius: 30px;
+  margin: 0 1%;;
+  background-color: #FF8000;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#About-me{
+    font-family: "Montserrat";
+    padding: 7% 15%;
+    text-align: center;
+}
+
+@media (min-width: 992px){
+.image{
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  top: 10rem;
+}
+#title{
+  text-align: left;
+}
+}
